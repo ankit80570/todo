@@ -1,0 +1,30 @@
+/*.body{
+  background: rgb(54,217,182);
+  background: linear-gradient(90deg, rgba(54,217,182,1) 0%, rgba(32,152,126,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.main-div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width:100px;
+  background-color:orangered;
+}*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-body{
+  height: 100vh;
+  background: rgb(12,36,0);
+  background: linear-gradient(325deg, rgba(12,36,0,1) 0%, rgba(0,255,158,1) 0%, rgba(0,212,255,1) 75%);
+}
+.content-center{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+}
